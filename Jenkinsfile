@@ -5,4 +5,8 @@ node(){
 stage('Calling Python'){
 sh "python callpython.py"
 }
+  
+  stage('python with para'){
+  sh "python hello.py 23 445"
+}
 }
