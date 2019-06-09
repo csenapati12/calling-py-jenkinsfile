@@ -13,7 +13,8 @@ node(){
   
 stage('Calling IPs'){
   for(int i=0;i<listIps.size();i++){
-  sh "python getKeyClockToken.py $listIps[i]"
+      //print "Ips are ${listIps.[i]}"
+  sh "python getKeyClockToken.py ${listIps[i]}"
   }
 }
 }
