@@ -1,4 +1,4 @@
 sum()
 def sum():
-print "I am inside Sum method"
+print ("I am inside Sum method")
 
